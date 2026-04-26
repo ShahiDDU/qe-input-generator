@@ -1,0 +1,37 @@
+# Secrets
+.streamlit/secrets.toml
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# QE output files
+*.out
+*.xml
+*.dos
+*.dat
+*.save/
+tmp/
+qe_run/
+
+# Pseudopotential files (proprietary — user must supply)
+*.UPF
+*.upf
+pseudo/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Old Tkinter GUI (not part of the web app)
+gui/
+main.py
+icon.png
+QEGUI.desktop
+qegui.sh
+install.sh

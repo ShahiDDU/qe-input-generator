@@ -1,0 +1,1 @@
+# QE GUI core package
