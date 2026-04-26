@@ -1,8 +1,12 @@
-# QE Input Generator
+# QE Input Generator — Free Online Quantum ESPRESSO GUI
 
-A web-based GUI for generating [Quantum ESPRESSO](https://www.quantum-espresso.org/) `pw.x` input files through a clean, step-by-step wizard. No coding required.
+> Generate Quantum ESPRESSO pw.x input files online — no installation, no coding.
 
-Built with [Streamlit](https://streamlit.io) and deployable anywhere with a browser.
+A free, web-based GUI for [Quantum ESPRESSO](https://www.quantum-espresso.org/) input file generation. Designed for researchers, students, and computational physicists who want to set up DFT calculations, band structure calculations, and structural relaxations quickly and correctly.
+
+**🌐 Try it live →** *(deploy your own on [Streamlit Community Cloud](https://share.streamlit.io) for free)*
+
+Built with [Streamlit](https://streamlit.io). Works in any browser — no installation required.
 
 ---
 
@@ -171,6 +175,18 @@ python3 test_input.py
 ```
 
 This walks through all 8 steps (structure → pseudos → CONTROL → SYSTEM → ELECTRONS → K-points → save → validate) and prints the growing input file at each step.
+
+---
+
+## Related Projects
+
+- [VASP Input Generator](https://github.com/ShahiDDU/vasp-input-generator) — same wizard UI for VASP (INCAR, POSCAR, KPOINTS, POTCAR)
+
+---
+
+## Keywords
+
+`Quantum ESPRESSO` `QE input generator` `pw.x` `pwscf` `DFT` `density functional theory` `ab initio` `materials science` `computational physics` `band structure` `structural relaxation` `pseudopotentials` `UPF` `HSE` `DFT+U` `Hubbard U` `spin-orbit coupling` `molecular dynamics` `streamlit` `online DFT tool` `KPOINTS crystal_b`
 
 ---
 
